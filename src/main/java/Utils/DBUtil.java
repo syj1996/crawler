@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class DBUtil {
-    private static  String url="jdbc:mysql://localhost:3306/weiXinInfo?characterEncoding=utf8&serverTimezone=UTC";
+    private static  String url="jdbc:mysql://localhost:3306/crawler?characterEncoding=utf8&serverTimezone=UTC";
     private static final String user="root";
     private static final String password="123456";
     private static Connection conn=null;
